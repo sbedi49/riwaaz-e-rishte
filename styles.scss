@@ -1,0 +1,163 @@
+@font-face {
+  src: url("./assets/Scriptina Pro.otf");
+  font-family: scriptina;
+}
+
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  box-sizing: border-box;
+  font-size: 62.5%;
+  font-family: scriptina;
+  line-height: 1.6;
+  background-color: #e5e5e5;
+}
+
+///// CONTAINER //////
+.container {
+  display: flex;
+  min-height: 100vh;
+  min-width: 100vw;
+  flex-direction: column;
+}
+
+///// HEADER //////
+.header {
+  min-height: 100vh;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url(./assets/img/bg-2.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  position: relative;
+}
+
+.header__heading {
+  color: #d4a310;
+  font-size: 5rem;
+  letter-spacing: 4px;
+  font-family: scriptina;
+  margin: auto;
+}
+
+///// NAVBAR //////
+.navbar {
+  max-height: 4rem;
+  background-color: #006266;
+  width: 100%;
+  padding: 1rem;
+
+  &__list {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    list-style: none;
+  }
+
+  &__brand {
+    align-self: center;
+    justify-self: center;
+    height: 4rem;
+    width: 4rem;
+  }
+
+  &__link {
+    align-self: center;
+    letter-spacing: 2px;
+    justify-self: center;
+    color: white;
+    text-decoration: none;
+    font-size: 1.4rem;
+    font-weight: 800;
+  }
+}
+///// SERVICES //////
+.services {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 3rem 1rem;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  padding: 1rem;
+
+  &__heading {
+    font-size: 4rem;
+    justify-self: center;
+    align-self: center;
+    text-transform: uppercase;
+    font-family: monospace;
+    color: #006266;
+  }
+}
+
+.info {
+  padding: 1rem;
+  font-family: monospace;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  text-align: center;
+
+  &__logo {
+    fill: #d4a310;
+    height: 3rem;
+    width: 3rem;
+  }
+
+  &__header {
+    margin-top: 1rem;
+    font-size: 1.05rem;
+    text-transform: uppercase;
+    color: #d4a310;
+  }
+
+  &__text {
+    font-size: 0.8rem;
+    text-overflow: ellipsis;
+  }
+}
+
+///// GALLERY //////
+
+/////Footer//////
+.footer {
+  display: flex;
+  background-color: black;
+}
+
+///SVG////
+path {
+  stroke: #d4a310;
+  stroke-dasharray: 1800;
+  opacity: 10;
+  animation: animate 4s;
+}
+
+@keyframes animate {
+  0% {
+    opacity: 0;
+    fill: none;
+    stroke-dashoffset: 1800;
+  }
+  30% {
+    fill: none;
+    stroke-dashoffset: 1800;
+  }
+  100% {
+    opacity: 10;
+    stroke-dashoffset: 0;
+  }
+}
+///SVG////

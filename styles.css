@@ -1,0 +1,220 @@
+@font-face {
+  src: url("./assets/Scriptina Pro.otf");
+  font-family: scriptina;
+}
+
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-size: 62.5%;
+  font-family: scriptina;
+  line-height: 1.6;
+  background-color: #e5e5e5;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  min-height: 100vh;
+  min-width: 100vw;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.header {
+  min-height: 100vh;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.6)), to(rgba(0, 0, 0, 0.6))), url(./assets/img/bg-2.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(./assets/img/bg-2.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  position: relative;
+}
+
+.header__heading {
+  color: #d4a310;
+  font-size: 5rem;
+  letter-spacing: 4px;
+  font-family: scriptina;
+  margin: auto;
+}
+
+.navbar {
+  max-height: 4rem;
+  background-color: #006266;
+  width: 100%;
+  padding: 1rem;
+}
+
+.navbar__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  list-style: none;
+}
+
+.navbar__brand {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  -ms-grid-column-align: center;
+      justify-self: center;
+  height: 4rem;
+  width: 4rem;
+}
+
+.navbar__link {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  letter-spacing: 2px;
+  -ms-grid-column-align: center;
+      justify-self: center;
+  color: white;
+  text-decoration: none;
+  font-size: 1.4rem;
+  font-weight: 800;
+}
+
+.services {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin: 3rem 1rem;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: white;
+  padding: 1rem;
+}
+
+.services__heading {
+  font-size: 4rem;
+  -ms-grid-column-align: center;
+      justify-self: center;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  text-transform: uppercase;
+  font-family: monospace;
+  color: #006266;
+}
+
+.info {
+  padding: 1rem;
+  font-family: monospace;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  text-align: center;
+}
+
+.info__logo {
+  fill: #d4a310;
+  height: 3rem;
+  width: 3rem;
+}
+
+.info__header {
+  margin-top: 1rem;
+  font-size: 1.05rem;
+  text-transform: uppercase;
+  color: #d4a310;
+}
+
+.info__text {
+  font-size: 0.8rem;
+  text-overflow: ellipsis;
+}
+
+.footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: black;
+}
+
+path {
+  stroke: #d4a310;
+  stroke-dasharray: 1800;
+  opacity: 10;
+  -webkit-animation: animate 4s;
+          animation: animate 4s;
+}
+
+@-webkit-keyframes animate {
+  0% {
+    opacity: 0;
+    fill: none;
+    stroke-dashoffset: 1800;
+  }
+  30% {
+    fill: none;
+    stroke-dashoffset: 1800;
+  }
+  100% {
+    opacity: 10;
+    stroke-dashoffset: 0;
+  }
+}
+
+@keyframes animate {
+  0% {
+    opacity: 0;
+    fill: none;
+    stroke-dashoffset: 1800;
+  }
+  30% {
+    fill: none;
+    stroke-dashoffset: 1800;
+  }
+  100% {
+    opacity: 10;
+    stroke-dashoffset: 0;
+  }
+}
+/*# sourceMappingURL=styles.css.map */
