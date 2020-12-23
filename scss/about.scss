@@ -1,0 +1,161 @@
+@font-face {
+  src: url("../assets/Scriptina Pro.otf");
+  font-family: scriptina;
+}
+
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  box-sizing: border-box;
+  font-size: 62.5%;
+  font-family: scriptina;
+  line-height: 1.6;
+  background-color: #e5e5e5;
+}
+
+.container {
+  display: flex;
+  min-height: 100vh;
+  min-width: 100vw;
+  flex-direction: column;
+}
+
+///// NAVBAR //////
+.navbar {
+  max-height: 4rem;
+  background-color: #006266;
+  width: 100%;
+  padding: 1rem;
+  position: fixed;
+  z-index: 20;
+  font-family: cursive;
+  transition: all 0.5s;
+
+  &__list {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    list-style: none;
+
+    & > li {
+      transition: all 0.3s;
+    }
+
+    & > li:hover {
+      transform: translateY(-5px);
+    }
+  }
+
+  &__brand {
+    align-self: center;
+    justify-self: center;
+    height: 4rem;
+    width: 4rem;
+  }
+
+  &__link {
+    align-self: center;
+    letter-spacing: 2px;
+    justify-self: center;
+    color: white;
+    text-decoration: none;
+    font-size: 1.4rem;
+    font-weight: 800;
+    transition: all 0.2s;
+
+    &:hover {
+      color: #d4a310;
+    }
+  }
+}
+
+///ABOUT PAGE////
+.header2 {
+  display: flex;
+  align-items: center;
+  margin-top: 10rem;
+  flex-direction: column;
+  padding: 3rem;
+
+  &__heading {
+    color: #d4a310;
+    font-size: 5rem;
+    letter-spacing: 4px;
+    font-family: scriptina;
+  }
+
+  &__text {
+    font-family: cursive;
+    font-size: 1rem;
+    color: black;
+    margin: 5rem 0;
+  }
+}
+
+/////Footer//////
+.footer {
+  color: white;
+  display: flex;
+  font-family: cursive;
+  justify-content: space-between;
+  align-content: center;
+  align-items: center;
+  padding: 3rem;
+  min-height: 30vh;
+  background-color: #006266;
+
+  &__box {
+    font-family: cursive;
+    display: flex;
+    max-width: 15rem;
+    align-content: center;
+    justify-content: center;
+    flex-direction: column;
+
+    &__header {
+      font-size: 2rem;
+      margin-bottom: 1rem;
+      color: #d4a310;
+    }
+
+    &__span {
+      color: #d4a310;
+      font-size: 1.2rem;
+      margin: 0.2rem;
+    }
+
+    &__address {
+      font-size: 1rem;
+    }
+  }
+
+  &__box2 {
+    display: flex;
+
+    &__logo {
+      width: 100%;
+      object-fit: contain;
+      height: 6rem;
+      border: #d4a310;
+    }
+  }
+
+  &__box3 {
+    display: flex;
+    flex-direction: column;
+    font-size: 2rem;
+
+    &__socials {
+      display: flex;
+      justify-content: space-between;
+      font-size: 2rem;
+      margin: 1rem;
+      color: #d4a310;
+    }
+  }
+}
