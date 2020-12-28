@@ -34,8 +34,8 @@ body {
   flex-direction: column;
   background-image: linear-gradient(
       to right,
-      rgba(#006266, 0.8),
-      rgba(#006266, 0.8)
+      rgba(black, 0.6),
+      rgba(black, 0.6)
     ),
     url(../assets/img/bg-2.jpg);
   background-position: center;
@@ -56,7 +56,7 @@ body {
 ///// NAVBAR //////
 .navbar {
   max-height: 4rem;
-  // background-color: #006266;
+  background-color: #006266;
   width: 100%;
   padding: 1rem;
   position: fixed;
