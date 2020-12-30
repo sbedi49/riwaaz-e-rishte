@@ -278,6 +278,18 @@ body {
   color: #d4a310;
 }
 
+.footer__box3__socials > a {
+  color: #d4a310;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+.footer__box3__socials > a:hover {
+  color: white;
+  -webkit-transform: translateY(-2px);
+          transform: translateY(-2px);
+}
+
 .footer__link {
   text-decoration: none;
   color: white;

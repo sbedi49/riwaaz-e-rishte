@@ -201,6 +201,16 @@ body {
       font-size: 1rem;
       margin: 0.4rem;
       color: #d4a310;
+
+      & > a {
+        color: #d4a310;
+        transition: all 0.2s;
+
+        &:hover {
+          color: white;
+          transform: translateY(-2px);
+        }
+      }
     }
   }
 }
