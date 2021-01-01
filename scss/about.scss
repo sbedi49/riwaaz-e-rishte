@@ -226,3 +226,21 @@ body {
     color: #d4a310;
   }
 }
+
+@media (max-width: 768px) {
+  .footer {
+    flex-direction: column;
+
+    &__box2 {
+      display: none;
+    }
+    &__box3 {
+      &__menu {
+        display: none;
+      }
+      &__socials {
+        margin: 1rem;
+      }
+    }
+  }
+}
