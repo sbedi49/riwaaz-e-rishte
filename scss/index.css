@@ -31,6 +31,46 @@ body {
           flex-direction: column;
 }
 
+.container.active {
+  position: absolute;
+  right: 300px;
+}
+
+menu {
+  background-color: #d4a310;
+  position: absolute;
+  z-index: 30;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 100%;
+  width: 300px;
+  right: 0;
+  text-align: center;
+}
+
+menu ul {
+  list-style: none;
+}
+
+menu ul li {
+  margin-top: 1rem;
+}
+
+menu ul img {
+  margin-top: 5rem;
+}
+
 .header {
   -webkit-box-align: center;
       -ms-flex-align: center;
@@ -73,7 +113,7 @@ body {
   max-height: 4rem;
   background-color: #006266;
   width: 100%;
-  padding: 1rem;
+  padding: 1rem 0;
   position: fixed;
   z-index: 20;
   font-family: cursive;
@@ -141,12 +181,12 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 100%;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
   padding: 3rem;
   display: none;
+  width: 100%;
 }
 
 .toggle-button {

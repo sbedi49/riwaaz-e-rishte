@@ -24,6 +24,36 @@ body {
   min-height: 100vh;
   min-width: 100vw;
   flex-direction: column;
+
+  &.active {
+    position: absolute;
+    right: 300px;
+  }
+}
+
+menu {
+  background-color: #d4a310;
+  position: absolute;
+  z-index: 30;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100%;
+  width: 300px;
+  right: 0;
+  text-align: center;
+
+  & ul {
+    list-style: none;
+
+    & li {
+      margin-top: 1rem;
+    }
+    & img {
+      margin-top: 5rem;
+    }
+  }
 }
 
 ///// HEADER //////
@@ -61,7 +91,7 @@ body {
   max-height: 4rem;
   background-color: #006266;
   width: 100%;
-  padding: 1rem;
+  padding: 1rem 0;
   position: fixed;
   z-index: 20;
   font-family: cursive;
@@ -109,10 +139,10 @@ body {
 .toggle-bar {
   display: flex;
   align-items: center;
-  width: 100%;
   justify-content: space-between;
   padding: 3rem;
   display: none;
+  width: 100%;
 }
 .toggle-button {
   display: flex;

@@ -1,6 +1,7 @@
-var path = document.querySelector('path');
-var length = path.getTotalLength();
+const toggle = document.getElementById("toggle")
+const main = document.getElementById("main")
 
-console.log(length);
-
+toggle.addEventListener("click",()=>{
+    main.classList.toggle("active")
+})
 
