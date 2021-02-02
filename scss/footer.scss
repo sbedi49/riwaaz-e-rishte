@@ -1,0 +1,133 @@
+/////Footer//////
+.footer {
+  color: white;
+  display: flex;
+  font-family: cursive;
+  justify-content: space-evenly;
+  align-content: center;
+  align-items: center;
+  padding: 3rem;
+  min-height: 30vh;
+  background-color: #006266;
+
+  &__box {
+    display: flex;
+    max-width: 15rem;
+    align-content: center;
+    justify-content: center;
+    flex-direction: column;
+
+    &__header {
+      font-size: 2rem;
+      margin-bottom: 1rem;
+      color: #d4a310;
+    }
+
+    &__span {
+      color: #d4a310;
+      font-size: 1.2rem;
+      margin: 0.2rem;
+    }
+
+    &__address {
+      font-size: 1rem;
+    }
+  }
+
+  &__box2 {
+    display: flex;
+
+    &__logo {
+      width: 100%;
+      object-fit: contain;
+      height: 6rem;
+      border: #d4a310;
+    }
+  }
+
+  &__box3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    &__menu {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      align-content: center;
+      justify-content: center;
+      align-items: center;
+
+      &__heading {
+        grid-column: 1/-1;
+        justify-self: center;
+        font-size: 2rem;
+        color: #d4a310;
+        margin-bottom: 1rem;
+      }
+
+      &__item {
+        font-size: 1.2rem;
+        margin: 0.3rem;
+        text-decoration: none;
+        color: white;
+        transition: all 0.2s;
+
+        &:hover {
+          color: #d4a310;
+          cursor: pointer;
+          transform: translateY(-2px);
+        }
+      }
+    }
+
+    &__socials {
+      display: flex;
+      width: 100%;
+      justify-content: space-evenly;
+      font-size: 1rem;
+      margin: 0.4rem;
+      color: #d4a310;
+
+      & > a {
+        color: #d4a310;
+        transition: all 0.2s;
+
+        &:hover {
+          color: white;
+          transform: translateY(-2px);
+        }
+      }
+    }
+  }
+}
+
+// FOOTER LINK TAGS
+
+.footer__link {
+  text-decoration: none;
+  color: white;
+  transition: all 0.2s;
+
+  &:hover {
+    color: #d4a310;
+  }
+}
+
+@media (max-width: 768px) {
+  .footer {
+    flex-direction: column;
+
+    &__box2 {
+      display: none;
+    }
+    &__box3 {
+      &__menu {
+        display: none;
+      }
+      &__socials {
+        margin: 1rem;
+      }
+    }
+  }
+}

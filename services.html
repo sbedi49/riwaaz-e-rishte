@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Riwaaz-E-Rishte</title>
-    <link rel="stylesheet" href="scss/services.css" />
+    <link rel="stylesheet" href="scss/main.css" />
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <link
       rel="stylesheet"
@@ -18,17 +18,57 @@
       <nav class="navbar">
         <ul class="navbar__list">
           <li>
-            <a href="gallery.html" class="navbar__link">Gallery</a>
-          </li>
-          <li><a href="about.html" class="navbar__link">About</a></li>
-          <li>
             <a href="/"
               ><img src="./assets/img/logo.png" class="navbar__brand"
             /></a>
           </li>
+          <li>
+            <a href="gallery.html" class="navbar__link">Gallery</a>
+          </li>
+          <li><a href="about.html" class="navbar__link">About</a></li>
+
+          <li>
+            <a href="work.html" class="navbar__link">Our Work</a>
+          </li>
           <li><a href="services.html" class="navbar__link">Services</a></li>
-          <li><a href="#footer" class="navbar__link">Contact Us</a></li>
+          <li>
+            <a href="about.html#footer" class="navbar__link">Contact Us</a>
+          </li>
         </ul>
+        <div class="toggle-bar">
+          <img class="toggle-img" src="./assets/img/logo.png" alt="" />
+          <a id="toggle" class="toggle-button" href="#">
+            <span class="bar one"></span>
+            <span class="bar two"></span>
+            <span class="bar three"></span>
+          </a>
+        </div>
+
+        <div id="respNav" class="responsive-nav">
+          <div id="menu" class="menu">
+            <ul class="menu__list">
+              <li class="menu__item">
+                <a class="menu__link" href="/">Home</a>
+              </li>
+              <li class="menu__item">
+                <a href="gallery.html" class="menu__link">Gallery</a>
+              </li>
+              <li class="menu__item">
+                <a href="about.html" class="menu__link">About</a>
+              </li>
+              <li class="menu__item">
+                <a href="work.html" class="menu__link">Our Work</a>
+              </li>
+
+              <li class="menu__item">
+                <a href="services.html" class="menu__link">Services</a>
+              </li>
+              <li class="menu__item">
+                <a href="about.html#footer" class="menu__link">Contact Us</a>
+              </li>
+            </ul>
+          </div>
+        </div>
       </nav>
       <div id="services" class="header3">
         <h1 class="header3__heading" data-aos="fade-left">Services</h1>

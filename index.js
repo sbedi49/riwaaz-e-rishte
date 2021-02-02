@@ -11,7 +11,5 @@ toggle.addEventListener("click",()=>{
     barOne.classList.toggle("active");
     barTwo.classList.toggle("active");
     barThree.classList.toggle("active");
-
-
 })
 

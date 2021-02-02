@@ -1,0 +1,162 @@
+///// NAVBAR //////
+.navbar {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: min-content;
+  background-color: #006266;
+  width: 100%;
+  padding: 1rem 0;
+  z-index: 20;
+  font-family: cursive;
+
+  &__list {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-evenly;
+    list-style: none;
+
+    & > li {
+      transition: all 0.3s;
+    }
+
+    & > li:hover {
+      transform: translateY(-5px);
+    }
+  }
+
+  &__brand {
+    align-self: center;
+    justify-self: center;
+    height: 4rem;
+    width: 4rem;
+  }
+
+  &__link {
+    align-self: center;
+    letter-spacing: 2px;
+    justify-self: center;
+    color: white;
+    text-decoration: none;
+    font-size: 1.4rem;
+    font-weight: 800;
+    transition: all 0.2s;
+
+    &:hover {
+      color: #d4a310;
+    }
+  }
+}
+
+//RESPONSIVE NAV
+.toggle-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  display: none;
+  width: 100%;
+}
+.toggle-button {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  width: 25px;
+  height: 20px;
+  position: relative;
+}
+
+.bar {
+  height: 2px;
+  display: flex;
+  width: 100%;
+  background-color: white;
+  border-radius: 10px;
+  transition: all 0.2s;
+
+  &.one.active {
+    transform: rotateZ(45deg);
+    position: absolute;
+    top: 50%;
+    background-color: #d4a310;
+    transition: all 0.2s;
+  }
+
+  &.two.active {
+    display: none;
+  }
+
+  &.three.active {
+    transform: rotateZ(-45deg);
+    transition: all 0.2s;
+    position: absolute;
+    background-color: #d4a310;
+    top: 50%;
+  }
+}
+
+.toggle-img {
+  height: 4rem;
+  width: 4rem;
+}
+
+@media screen and (max-width: 768px) {
+  .toggle-bar {
+    display: flex;
+  }
+  .navbar {
+    flex-direction: column;
+  }
+  .navbar__list {
+    display: none;
+  }
+
+  .responsive-nav {
+    display: none;
+
+    &.active {
+      display: contents;
+    }
+  }
+}
+
+//RESPONSIVE NAV
+.responsive-nav {
+  display: none;
+}
+
+.menu {
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+
+  &__item {
+    margin-top: 1rem;
+  }
+
+  &__list {
+    list-style: none;
+    padding: 2rem;
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  &__link {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    font-weight: 800;
+    font-family: cursive;
+    letter-spacing: 2px;
+    font-size: 1rem;
+    transition: all 0.2s;
+
+    &:hover {
+      color: white;
+    }
+  }
+}
