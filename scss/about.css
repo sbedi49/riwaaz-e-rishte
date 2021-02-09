@@ -1,4 +1,4 @@
-.header2 {
+.about {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -13,14 +13,14 @@
   padding: 3rem;
 }
 
-.header2__heading {
+.about__heading {
   color: #d4a310;
   font-size: 5rem;
   letter-spacing: 4px;
   font-family: scriptina;
 }
 
-.header2__body {
+.about__body {
   background-color: white;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -37,13 +37,13 @@
   text-align: center;
 }
 
-.header2__body__text {
+.about__text {
   font-family: cursive;
   font-size: 1.2rem;
   color: black;
 }
 
-.header2__body__text > span {
+.about__text > span {
   color: #d4a310;
 }
 /*# sourceMappingURL=about.css.map */

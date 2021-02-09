@@ -1,5 +1,4 @@
-///SERVICES PAGE///
-.header3 {
+.services {
   display: flex;
   flex-direction: column;
   padding: 3rem;
@@ -21,15 +20,15 @@
     margin: 2rem 0;
     border: 2px solid #d4a310;
     text-align: center;
-
-    &__text {
-      font-family: cursive;
-      font-size: 1.2rem;
-      color: black;
-    }
+  }
+  &__text {
+    font-family: cursive;
+    font-size: 1.2rem;
+    color: black;
   }
 }
-.services {
+
+.provisions {
   display: flex;
   flex-direction: column;
   justify-content: center;

@@ -1,5 +1,4 @@
-///ABOUT PAGE////
-.header2 {
+.work {
   display: flex;
   align-items: center;
   margin-top: 10rem;
@@ -24,15 +23,14 @@
     margin: 2rem 0;
     border: 2px solid #d4a310;
     text-align: center;
+  }
+  &__text {
+    font-family: cursive;
+    font-size: 1.2rem;
+    color: black;
 
-    &__text {
-      font-family: cursive;
-      font-size: 1.2rem;
-      color: black;
-
-      & > span {
-        color: #d4a310;
-      }
+    & > span {
+      color: #d4a310;
     }
   }
 }

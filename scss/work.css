@@ -1,4 +1,4 @@
-.header2 {
+.work {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -13,7 +13,7 @@
   padding: 3rem;
 }
 
-.header2__heading {
+.work__heading {
   color: #d4a310;
   font-size: 5rem;
   letter-spacing: 4px;
@@ -22,7 +22,7 @@
   width: 100vw;
 }
 
-.header2__body {
+.work__body {
   background-color: white;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -39,13 +39,13 @@
   text-align: center;
 }
 
-.header2__body__text {
+.work__text {
   font-family: cursive;
   font-size: 1.2rem;
   color: black;
 }
 
-.header2__body__text > span {
+.work__text > span {
   color: #d4a310;
 }
 /*# sourceMappingURL=work.css.map */

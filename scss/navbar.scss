@@ -1,6 +1,8 @@
 ///// NAVBAR //////
 .navbar {
   display: flex;
+  position: fixed;
+  top: 0;
   justify-content: space-evenly;
   align-items: center;
   height: min-content;
@@ -71,15 +73,16 @@
   height: 2px;
   display: flex;
   width: 100%;
-  background-color: white;
+  background-color: #d4a310;
   border-radius: 10px;
   transition: all 0.2s;
 
   &.one.active {
     transform: rotateZ(45deg);
+    background-color: white;
     position: absolute;
     top: 50%;
-    background-color: #d4a310;
+
     transition: all 0.2s;
   }
 
@@ -90,8 +93,8 @@
   &.three.active {
     transform: rotateZ(-45deg);
     transition: all 0.2s;
+    background-color: white;
     position: absolute;
-    background-color: #d4a310;
     top: 50%;
   }
 }

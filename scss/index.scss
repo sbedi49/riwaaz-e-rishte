@@ -15,14 +15,14 @@
   background-repeat: no-repeat;
   background-attachment: fixed;
   position: relative;
-}
 
-.header__heading {
-  color: #d4a310;
-  font-size: 5rem;
-  letter-spacing: 4px;
-  font-family: scriptina;
-  margin: auto;
+  &__heading {
+    color: #d4a310;
+    font-size: 5rem;
+    letter-spacing: 4px;
+    font-family: scriptina;
+    margin: auto;
+  }
 }
 
 ///SVG////

@@ -1,4 +1,4 @@
-.header3 {
+.services {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -9,7 +9,7 @@
   padding: 3rem;
 }
 
-.header3__heading {
+.services__heading {
   font-size: 5rem;
   margin-top: 10rem;
   -ms-grid-column-align: center;
@@ -20,7 +20,7 @@
   color: #d4a310;
 }
 
-.header3__content {
+.services__content {
   background-color: white;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -37,13 +37,13 @@
   text-align: center;
 }
 
-.header3__content__text {
+.services__text {
   font-family: cursive;
   font-size: 1.2rem;
   color: black;
 }
 
-.services {
+.provisions {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -59,7 +59,7 @@
           align-items: center;
 }
 
-.services__container {
+.provisions__container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
