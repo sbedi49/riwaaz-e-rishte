@@ -17,7 +17,7 @@
   position: relative;
 
   &__heading {
-    color: #d4a310;
+    color: $primary-color;
     font-size: 5rem;
     letter-spacing: 4px;
     font-family: scriptina;
@@ -42,6 +42,6 @@ path {
   to {
     stroke-dashoffset: 0;
     opacity: 10;
-    fill: #d4a310;
+    fill: $primary-color;
   }
 }

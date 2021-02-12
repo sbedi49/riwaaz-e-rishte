@@ -1,3 +1,28 @@
+@font-face {
+  src: url("../assets/Scriptina Pro.otf");
+  font-family: scriptina;
+}
+
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-size: 62.5%;
+  font-family: scriptina;
+  line-height: 1.6;
+  background-color: #e5e5e5;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
 .navbar {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -224,31 +249,6 @@
 
 .menu__link:hover {
   color: white;
-}
-
-@font-face {
-  src: url("../assets/Scriptina Pro.otf");
-  font-family: scriptina;
-}
-
-*,
-*::before,
-*::after {
-  padding: 0;
-  margin: 0;
-}
-
-body {
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  font-size: 62.5%;
-  font-family: scriptina;
-  line-height: 1.6;
-  background-color: #e5e5e5;
-}
-
-html {
-  scroll-behavior: smooth;
 }
 
 .header {
@@ -949,6 +949,7 @@ path {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+    text-align: center;
   }
   .footer__box2 {
     display: none;

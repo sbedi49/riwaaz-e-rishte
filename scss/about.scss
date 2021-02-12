@@ -6,7 +6,7 @@
   padding: 3rem;
 
   &__heading {
-    color: #d4a310;
+    color: $primary-color;
     font-size: 5rem;
     letter-spacing: 4px;
     font-family: scriptina;
@@ -19,7 +19,7 @@
     align-items: center;
     justify-content: center;
     margin: 2rem 0;
-    border: 2px solid #d4a310;
+    border: 2px solid $primary-color;
     text-align: center;
   }
   &__text {
@@ -28,7 +28,7 @@
     color: black;
 
     & > span {
-      color: #d4a310;
+      color: $primary-color;
     }
   }
 }

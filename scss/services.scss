@@ -8,7 +8,7 @@
     margin-top: 10rem;
     justify-self: center;
     align-self: center;
-    color: #d4a310;
+    color: $primary-color;
   }
 
   &__content {
@@ -18,7 +18,7 @@
     align-items: center;
     justify-content: center;
     margin: 2rem 0;
-    border: 2px solid #d4a310;
+    border: 2px solid $primary-color;
     text-align: center;
   }
   &__text {
@@ -59,7 +59,7 @@
   &__front {
     border-radius: 1rem;
     font-family: cursive;
-    box-shadow: 0 0 1rem 1px #d4a310;
+    box-shadow: 0 0 1rem 1px $primary-color;
     background-color: white;
     display: flex;
     transition: all 0.6s linear;
@@ -75,7 +75,7 @@
     transform: perspective(1000px) rotateY(0deg);
 
     &__logo {
-      fill: #d4a310;
+      fill: $primary-color;
       height: 5rem;
       width: 5rem;
     }
@@ -84,7 +84,7 @@
       margin-top: 1rem;
       font-size: 1.05rem;
       text-transform: uppercase;
-      color: #d4a310;
+      color: $primary-color;
     }
   }
 
@@ -92,11 +92,11 @@
     border-radius: 1rem;
     display: flex;
     align-items: center;
-    background-color: #006266;
+    background-color: $secondary-color;
     color: white;
     justify-content: center;
     font-family: cursive;
-    box-shadow: 0 0 1rem 1px #d4a310;
+    box-shadow: 0 0 1rem 1px $primary-color;
     transition: all 0.6s linear;
     position: absolute;
     overflow: hidden;
