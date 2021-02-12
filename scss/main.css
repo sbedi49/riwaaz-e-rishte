@@ -755,35 +755,43 @@ path {
   font-size: 5rem;
   letter-spacing: 4px;
   font-family: scriptina;
-  background-color: white;
-  width: 100vw;
 }
 
 .work__body {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: (1fr)[3];
+      grid-template-rows: repeat(3, 1fr);
+  grid-gap: 2rem;
+}
+
+.work__box {
+  max-width: 50rem;
+  max-height: 20rem;
+  width: 50rem;
+  height: 15rem;
+  min-width: -webkit-max-content;
+  min-width: -moz-max-content;
+  min-width: max-content;
+  min-height: -webkit-max-content;
+  min-height: -moz-max-content;
+  min-height: max-content;
+  border: 2px solid #d4a310;
   background-color: white;
+  position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  padding: 4rem;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  margin: 2rem 0;
-  border: 2px solid #d4a310;
-  text-align: center;
 }
 
-.work__text {
-  font-family: cursive;
-  font-size: 1.2rem;
-  color: black;
-}
-
-.work__text > span {
-  color: #d4a310;
+.work__box__img {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 50%;
+  height: 100%;
 }
 
 .footer {
