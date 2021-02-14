@@ -3,15 +3,44 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+     <!-- FAVICON -->
+     <link
+     rel="apple-touch-icon"
+     sizes="180x180"
+     href="assets/Favicon/apple-touch-icon.png"
+   />
+   <link
+     rel="icon"
+     type="image/png"
+     sizes="32x32"
+     href="assets/Favicon/favicon-32x32.png"
+   />
+   <link
+     rel="icon"
+     type="image/png"
+     sizes="16x16"
+     href="assets/Favicon/favicon-16x16.png"
+   />
+   <link rel="manifest" href="assets/Favicon/site.webmanifest" />
+   <link
+     rel="mask-icon"
+     href="assets/Favicon/safari-pinned-tab.svg"
+     color="#5bbad5"
+   />
+   <meta name="msapplication-TileColor" content="#da532c" />
+   <meta name="theme-color" content="#ffffff" />
+   <!-- STYLES -->
+   <link rel="stylesheet" href="scss/main.css" />
+   <!-- ANIMATIONS -->
+   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+   <!-- FONT AWESOME -->
+   <link
+     rel="stylesheet"
+     href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"
+     integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp"
+     crossorigin="anonymous"
+   />
     <title>Riwaaz-E-Rishte</title>
-    <link rel="stylesheet" href="scss/main.css" />
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
-    <link
-      rel="stylesheet"
-      href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"
-      integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp"
-      crossorigin="anonymous"
-    />
   </head>
   <body>
     <div class="container">
@@ -26,18 +55,15 @@
             <a href="gallery.html" class="navbar__link">Gallery</a>
           </li>
           <li><a href="about.html" class="navbar__link">About</a></li>
-
-          <li>
-            <a href="work.html" class="navbar__link">Our Work</a>
-          </li>
           <li><a href="services.html" class="navbar__link">Services</a></li>
           <li>
             <a href="about.html#footer" class="navbar__link">Contact Us</a>
           </li>
         </ul>
         <div class="toggle-bar">
-          <img class="toggle-img" src="./assets/img/logo.png" alt="" />
-          <a id="toggle" class="toggle-button" href="#">
+          <a class="toggle-link" href="/"
+          ><img class="toggle-img" src="./assets/img/logo.png" alt=""
+        /></a>          <a id="toggle" class="toggle-button" href="#">
             <span class="bar one"></span>
             <span class="bar two"></span>
             <span class="bar three"></span>
@@ -56,10 +82,6 @@
               <li class="menu__item">
                 <a href="about.html" class="menu__link">About</a>
               </li>
-              <li class="menu__item">
-                <a href="work.html" class="menu__link">Our Work</a>
-              </li>
-
               <li class="menu__item">
                 <a href="services.html" class="menu__link">Services</a>
               </li>
@@ -87,6 +109,38 @@
             as you envisioned and your wedding is nothing less than a perfect
             dream which you always hoped for.
           </p>
+        </div>
+      </div>
+
+      <!-- WORK SECTION -->
+      <div class="work">
+        <div class="work__body">
+          <div class="work__box" data-aos="fade-left">
+            <a class="work__link" href="https://www.weddingsutra.com/real-weddings/featured-weddings/parakh-and-shanay-gurgaon/">
+              <img src="assets/img/img-9.jpg" alt="" class="work__box__img">
+            </a>
+            <div class="work__box__content">
+              <h3 class="work__box__content__heading"></h3>
+              <p class="work__box__content__text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Enim veritatis sunt cumque vero, id perferendis non. Nihil animi quas neque?</p>
+            </div>
+          </div>
+          <div class="work__box" data-aos="fade-right">
+            <a class="work__link" href="https://www.weddingsutra.com/real-weddings/featured-weddings/parakh-and-shanay-gurgaon/">
+              <img src="assets/img/img-9.jpg" alt="" class="work__box__img">
+            </a>
+            <div class="work__box__content">
+              <h3 class="work__box__content__heading"></h3>
+              <p class="work__box__content__text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Enim veritatis sunt cumque vero, id perferendis non. Nihil animi quas neque?</p>
+            </div>          </div>
+          <div class="work__box" data-aos="fade-left">
+            <a class="work__link" href="https://www.weddingsutra.com/real-weddings/featured-weddings/parakh-and-shanay-gurgaon/">
+              <img src="assets/img/img-9.jpg" alt="" class="work__box__img">
+            </a>
+            <div class="work__box__content">
+              <h3 class="work__box__content__heading"></h3>
+              <p class="work__box__content__text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Enim veritatis sunt cumque vero, id perferendis non. Nihil animi quas neque?</p>
+            </div>          
+          </div>
         </div>
       </div>
 

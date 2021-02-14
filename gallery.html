@@ -3,15 +3,44 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Riwaaz-E-Rishte</title>
+    <!-- FAVICON -->
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="assets/Favicon/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="assets/Favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="assets/Favicon/favicon-16x16.png"
+    />
+    <link rel="manifest" href="assets/Favicon/site.webmanifest" />
+    <link
+      rel="mask-icon"
+      href="assets/Favicon/safari-pinned-tab.svg"
+      color="#5bbad5"
+    />
+    <meta name="msapplication-TileColor" content="#da532c" />
+    <meta name="theme-color" content="#ffffff" />
+    <!-- STYLES -->
     <link rel="stylesheet" href="scss/main.css" />
+    <!-- ANIMATIONS -->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <!-- FONT AWESOME -->
     <link
       rel="stylesheet"
       href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"
       integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp"
       crossorigin="anonymous"
     />
+    <title>Riwaaz-E-Rishte</title>
   </head>
   <body>
     <div class="container">
@@ -27,16 +56,15 @@
           </li>
           <li><a href="about.html" class="navbar__link">About</a></li>
 
-          <li>
-            <a href="work.html" class="navbar__link">Our Work</a>
-          </li>
           <li><a href="services.html" class="navbar__link">Services</a></li>
           <li>
             <a href="about.html#footer" class="navbar__link">Contact Us</a>
           </li>
         </ul>
         <div class="toggle-bar">
-          <img class="toggle-img" src="./assets/img/logo.png" alt="" />
+          <a class="toggle-link" href="/"
+            ><img class="toggle-img" src="./assets/img/logo.png" alt=""
+          /></a>
           <a id="toggle" class="toggle-button" href="#">
             <span class="bar one"></span>
             <span class="bar two"></span>
@@ -56,9 +84,6 @@
               <li class="menu__item">
                 <a href="about.html" class="menu__link">About</a>
               </li>
-              <li class="menu__item">
-                <a href="work.html" class="menu__link">Our Work</a>
-              </li>
 
               <li class="menu__item">
                 <a href="services.html" class="menu__link">Services</a>
@@ -72,7 +97,6 @@
       </nav>
       <!-- GALLERY SECTION -->
       <div id="gallery" class="gallery">
-        <h1 class="gallery__heading" data-aos="fade-left">Gallery</h1>
         <div class="gallery__container">
           <img
             class="gallery__pic-1"
