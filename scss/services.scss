@@ -1,11 +1,12 @@
 .services {
   display: flex;
+  align-items: center;
   flex-direction: column;
   padding: 3rem;
 
   &__heading {
     font-size: 6rem;
-    margin-top: 10rem;
+    margin-top: 6rem;
     justify-self: center;
     align-self: center;
     color: $primary-color;
@@ -14,12 +15,13 @@
   &__content {
     background-color: $secondary-color;
     display: flex;
-    padding: 4rem;
+    padding: 2rem;
     align-items: center;
     justify-content: center;
     margin: 2rem 0;
     border: 2px solid $primary-color;
     text-align: center;
+    max-width: 60rem;
   }
   &__text {
     font-family: cursive;

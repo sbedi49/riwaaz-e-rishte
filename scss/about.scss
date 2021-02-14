@@ -15,7 +15,8 @@
   &__body {
     background-color: $secondary-color;
     display: flex;
-    padding: 4rem;
+    padding: 2rem;
+    max-width: 60rem;
     align-items: center;
     justify-content: center;
     margin: 2rem 0;

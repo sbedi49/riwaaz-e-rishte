@@ -6,8 +6,8 @@
   flex-direction: column;
   background-image: linear-gradient(
       to right,
-      rgba(white, 0.9),
-      rgba(white, 0.9)
+      rgba($tertiary-color, 0.6),
+      rgba($tertiary-color, 0.6)
     ),
     url(../assets/img/bg-2.jpg);
   background-position: center;
@@ -44,4 +44,10 @@ path {
     opacity: 10;
     fill: #d4a310;
   }
+}
+
+.test {
+  font-size: 6rem;
+  margin-top: 15rem;
+  color: $primary-color;
 }
