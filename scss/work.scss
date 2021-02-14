@@ -22,7 +22,7 @@
     max-width: 45rem;
     display: flex;
     border: 2px solid $primary-color;
-    background-color: white;
+    background-color: $secondary-color;
 
     &__img {
       object-fit: cover;

@@ -47,7 +47,7 @@
     transition: all 0.2s;
 
     &:hover {
-      color: black;
+      color: $tertiary-color;
     }
   }
 }
@@ -80,7 +80,7 @@
 
   &.one.active {
     transform: rotateZ(45deg);
-    background-color: black;
+    background-color: $tertiary-color;
     position: absolute;
     top: 50%;
 
@@ -94,7 +94,7 @@
   &.three.active {
     transform: rotateZ(-45deg);
     transition: all 0.2s;
-    background-color: black;
+    background-color: $tertiary-color;
     position: absolute;
     top: 50%;
   }
@@ -160,7 +160,7 @@
     transition: all 0.2s;
 
     &:hover {
-      color: black;
+      color: $tertiary-color;
     }
   }
 }

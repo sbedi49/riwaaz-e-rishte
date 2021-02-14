@@ -16,7 +16,7 @@ body {
   font-size: 62.5%;
   font-family: scriptina;
   line-height: 1.6;
-  background-color: #e5e5e5;
+  background-color: white;
 }
 
 html {
@@ -300,7 +300,7 @@ path {
   to {
     stroke-dashoffset: 0;
     opacity: 10;
-    fill: #f3a683;
+    fill: #d4a310;
   }
 }
 
@@ -308,7 +308,7 @@ path {
   to {
     stroke-dashoffset: 0;
     opacity: 10;
-    fill: #f3a683;
+    fill: #d4a310;
   }
 }
 
@@ -329,7 +329,7 @@ path {
 
 .about__heading {
   color: #f3a683;
-  font-size: 5rem;
+  font-size: 6rem;
   letter-spacing: 4px;
   font-family: scriptina;
 }
@@ -364,8 +364,8 @@ path {
 .gallery {
   margin: 3rem;
   margin-top: 10rem;
-  -webkit-box-shadow: 0 0 1rem 0.1rem white;
-          box-shadow: 0 0 1rem 0.1rem white;
+  -webkit-box-shadow: 0 0 1rem 0.1rem #f3a683;
+          box-shadow: 0 0 1rem 0.1rem #f3a683;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -379,8 +379,8 @@ path {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background-color: #f3a683;
-  padding: 2rem;
+  background-color: white;
+  padding: 1rem;
 }
 
 .gallery__heading {
@@ -408,7 +408,7 @@ path {
 }
 
 .gallery__btn__link {
-  color: white;
+  color: #f3a683;
   font-family: cursive;
   text-decoration: none;
   font-size: 2rem;
@@ -416,7 +416,7 @@ path {
 }
 
 .gallery__btn__link:hover {
-  color: white;
+  color: black;
 }
 
 .gallery__container {
@@ -445,8 +445,8 @@ path {
   width: 100%;
   -webkit-transition: all 2s;
   transition: all 2s;
-  -webkit-box-shadow: 0 0 5px 1px black;
-          box-shadow: 0 0 5px 1px black;
+  -webkit-box-shadow: 0 0 5px 1px rgba(0, 0, 0, 0.3);
+          box-shadow: 0 0 5px 1px rgba(0, 0, 0, 0.3);
   -webkit-transition: all 0.2s;
   transition: all 0.2s;
 }
@@ -578,7 +578,7 @@ path {
 }
 
 .services__heading {
-  font-size: 5rem;
+  font-size: 6rem;
   margin-top: 10rem;
   -ms-grid-column-align: center;
       justify-self: center;
@@ -712,7 +712,7 @@ path {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background-color: white;
+  background-color: #f3a683;
   color: white;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
@@ -801,7 +801,7 @@ path {
 }
 
 .footer {
-  color: black;
+  color: white;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -816,7 +816,7 @@ path {
           align-items: center;
   padding: 3rem;
   min-height: 30vh;
-  background-color: white;
+  background-color: #f3a683;
 }
 
 .footer__box {
@@ -838,11 +838,11 @@ path {
 .footer__box__header {
   font-size: 2rem;
   margin-bottom: 1rem;
-  color: #f3a683;
+  color: white;
 }
 
 .footer__box__span {
-  color: #f3a683;
+  color: white;
   font-size: 1.2rem;
   margin: 0.2rem;
 }
@@ -862,7 +862,7 @@ path {
   -o-object-fit: contain;
      object-fit: contain;
   height: 6rem;
-  border: #f3a683;
+  border: white;
 }
 
 .footer__box3 {
@@ -901,7 +901,7 @@ path {
   -ms-grid-column-align: center;
       justify-self: center;
   font-size: 2rem;
-  color: #f3a683;
+  color: white;
   margin-bottom: 1rem;
 }
 
@@ -915,7 +915,7 @@ path {
 }
 
 .footer__box3__menu__item:hover {
-  color: #f3a683;
+  color: white;
   cursor: pointer;
   -webkit-transform: translateY(-2px);
           transform: translateY(-2px);
@@ -931,17 +931,17 @@ path {
           justify-content: space-evenly;
   font-size: 1rem;
   margin: 0.4rem;
-  color: #f3a683;
+  color: white;
 }
 
 .footer__box3__socials > a {
-  color: #f3a683;
+  color: white;
   -webkit-transition: all 0.2s;
   transition: all 0.2s;
 }
 
 .footer__box3__socials > a:hover {
-  color: white;
+  color: black;
   -webkit-transform: translateY(-2px);
           transform: translateY(-2px);
 }
@@ -954,7 +954,7 @@ path {
 }
 
 .footer__link:hover {
-  color: #f3a683;
+  color: white;
 }
 
 @media (max-width: 768px) {
