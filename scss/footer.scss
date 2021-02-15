@@ -1,5 +1,5 @@
 .footer {
-  color: $secondary-color;
+  color: $primary-color;
   display: flex;
   font-family: cursive;
   justify-content: space-evenly;
@@ -7,7 +7,7 @@
   align-items: center;
   padding: 3rem;
   min-height: 30vh;
-  background-color: $primary-color;
+  background-color: $secondary-color;
 
   &__box {
     display: flex;
@@ -19,11 +19,11 @@
     &__header {
       font-size: 2rem;
       margin-bottom: 1rem;
-      color: $secondary-color;
+      color: $primary-color;
     }
 
     &__span {
-      color: $secondary-color;
+      color: $primary-color;
       font-size: 1.2rem;
       margin: 0.2rem;
     }
@@ -40,7 +40,7 @@
       width: 100%;
       object-fit: contain;
       height: 6rem;
-      border: $secondary-color;
+      border: $primary-color;
     }
   }
 
@@ -61,7 +61,7 @@
         grid-column: 1/-1;
         justify-self: center;
         font-size: 2rem;
-        color: $secondary-color;
+        color: $primary-color;
         margin-bottom: 1rem;
       }
 
@@ -86,10 +86,10 @@
       justify-content: space-evenly;
       font-size: 1rem;
       margin: 0.4rem;
-      color: $secondary-color;
+      color: $primary-color;
 
       & > a {
-        color: $secondary-color;
+        color: $primary-color;
         transition: all 0.2s;
 
         &:hover {

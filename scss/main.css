@@ -147,7 +147,7 @@ html {
 .bar.one.active {
   -webkit-transform: rotateZ(45deg);
           transform: rotateZ(45deg);
-  background-color: black;
+  background-color: #f3a683;
   position: absolute;
   top: 50%;
   -webkit-transition: all 0.2s;
@@ -163,7 +163,7 @@ html {
           transform: rotateZ(-45deg);
   -webkit-transition: all 0.2s;
   transition: all 0.2s;
-  background-color: black;
+  background-color: #f3a683;
   position: absolute;
   top: 50%;
 }
@@ -265,8 +265,8 @@ html {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.6)), to(rgba(0, 0, 0, 0.6))), url(../assets/img/bg-2.jpg);
-  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../assets/img/bg-2.jpg);
+  background-image: -webkit-gradient(linear, left top, right bottom, from(rgba(0, 0, 0, 0.6)), to(rgba(0, 0, 0, 0.6))), url(../assets/img/bg-2.jpg);
+  background-image: linear-gradient(to right bottom, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../assets/img/bg-2.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -287,7 +287,7 @@ html {
   margin: auto;
 }
 
-path {
+text {
   stroke-dashoffset: 1500;
   stroke-dasharray: 1500;
   -webkit-animation: animate 6s linear 1 forwards;
@@ -300,7 +300,7 @@ path {
   to {
     stroke-dashoffset: 0;
     opacity: 10;
-    fill: #d4a310;
+    fill: white;
   }
 }
 
@@ -308,14 +308,8 @@ path {
   to {
     stroke-dashoffset: 0;
     opacity: 10;
-    fill: #d4a310;
+    fill: white;
   }
-}
-
-.test {
-  font-size: 6rem;
-  margin-top: 15rem;
-  color: #f3a683;
 }
 
 .about {
@@ -356,6 +350,8 @@ path {
   margin: 2rem 0;
   border: 2px solid #f3a683;
   text-align: center;
+  -webkit-box-shadow: 0 0 2rem rgba(0, 0, 0, 0.3);
+          box-shadow: 0 0 2rem rgba(0, 0, 0, 0.3);
 }
 
 .about__text {
@@ -614,6 +610,8 @@ path {
   border: 2px solid #f3a683;
   text-align: center;
   max-width: 60rem;
+  -webkit-box-shadow: 0 0 1rem rgba(0, 0, 0, 0.3);
+          box-shadow: 0 0 1rem rgba(0, 0, 0, 0.3);
 }
 
 .services__text {
@@ -826,7 +824,7 @@ path {
 }
 
 .footer {
-  color: white;
+  color: #f3a683;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -841,7 +839,7 @@ path {
           align-items: center;
   padding: 3rem;
   min-height: 30vh;
-  background-color: #f3a683;
+  background-color: white;
 }
 
 .footer__box {
@@ -863,11 +861,11 @@ path {
 .footer__box__header {
   font-size: 2rem;
   margin-bottom: 1rem;
-  color: white;
+  color: #f3a683;
 }
 
 .footer__box__span {
-  color: white;
+  color: #f3a683;
   font-size: 1.2rem;
   margin: 0.2rem;
 }
@@ -887,7 +885,7 @@ path {
   -o-object-fit: contain;
      object-fit: contain;
   height: 6rem;
-  border: white;
+  border: #f3a683;
 }
 
 .footer__box3 {
@@ -926,7 +924,7 @@ path {
   -ms-grid-column-align: center;
       justify-self: center;
   font-size: 2rem;
-  color: white;
+  color: #f3a683;
   margin-bottom: 1rem;
 }
 
@@ -956,11 +954,11 @@ path {
           justify-content: space-evenly;
   font-size: 1rem;
   margin: 0.4rem;
-  color: white;
+  color: #f3a683;
 }
 
 .footer__box3__socials > a {
-  color: white;
+  color: #f3a683;
   -webkit-transition: all 0.2s;
   transition: all 0.2s;
 }

@@ -80,7 +80,7 @@
 
   &.one.active {
     transform: rotateZ(45deg);
-    background-color: $tertiary-color;
+    background-color: $primary-color;
     position: absolute;
     top: 50%;
 
@@ -94,7 +94,7 @@
   &.three.active {
     transform: rotateZ(-45deg);
     transition: all 0.2s;
-    background-color: $tertiary-color;
+    background-color: $primary-color;
     position: absolute;
     top: 50%;
   }
